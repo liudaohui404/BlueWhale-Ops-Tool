@@ -1,0 +1,5 @@
+{
+  "name": "BlueWhale Ops Tool",
+  "description": "A comprehensive operations dashboard for BlueWhale platform management, featuring inspection views, agent status checks, and system monitoring.",
+  "requestFramePermissions": []
+}
