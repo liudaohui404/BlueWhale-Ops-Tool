@@ -1,5 +1,3 @@
-import React from 'react';
-
 export enum ViewId {
   DAILY_INSPECTION = 'daily_inspection',
   OPERATION_VIEW = 'operation_view',
@@ -11,7 +9,7 @@ export enum ViewId {
 export interface MenuItem {
   id: string;
   label: string;
-  icon?: React.ReactNode;
+  icon?: string;
   children?: {
     id: ViewId;
     label: string;
